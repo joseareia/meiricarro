@@ -1,4 +1,13 @@
 $(document).ready(function() {
+    // sal.js initialization
+    sal();
+
+    // barba.js initialization and configuration
+    // barba.init({
+    //
+    // });
+
+    // pagePiling.js initialization and configuration
     $('#pagepiling').pagepiling({
         menu: '#menu',
         direction: 'vertical',
