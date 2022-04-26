@@ -188,7 +188,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* SECTION --- SERVICES */
-
 #services-section h2 {
     text-transform: uppercase;
     color: #656565;
@@ -237,7 +236,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* SECTION --- CONTACTS */
-
 #contacts-section h1 {
     font-size: 2rem;
     font-weight: 700;
@@ -319,7 +317,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* SECTION --- MAP SECTION */
-
 #map-section h1 {
     font-size: 2rem;
     font-weight: 700;
@@ -332,7 +329,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 80%;
 }
 
-#map-section .button button {
+#map-section .button button,
+#footer-section .button button {
     border: none;
     color: #fff;
     padding: 15px 36px;
@@ -351,13 +349,13 @@ h1, h2, h3, h4, h5, h6 {
     transition: .5s ease-in-out;
 }
 
-#map-section .button button:hover {
+#map-section .button button:hover,
+#footer-section .button button:hover {
     color: black;
     background-position: 0;
 }
 
 /* SECTION --- FOOTER */
-
 #footer-section .custom-footer {
     background-color: #efefef;
     width: 100%;
@@ -412,4 +410,33 @@ h1, h2, h3, h4, h5, h6 {
 #footer-section p {
     font-weight: 300;
     font-size: .875rem;
+}
+
+#footer-section .custom-section-prefooter {
+    background-color: #fff;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-section .custom-section-prefooter h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+#footer-section .custom-section-prefooter p {
+    font-size: 14px;
+    line-height: 2.2;
+    width: 80%;
+}
+
+#footer-section .button button {
+    background-image: linear-gradient(110deg, #fff 0%, #fff 50%, transparent 50%, transparent 100%) !important;
 }
