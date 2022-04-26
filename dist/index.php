@@ -42,7 +42,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container" data-sal="slide-down" data-sal-delay="300" data-sal-easing="ease-out-back">
                     <div id="container-hero-h1">
                         <h1 class="text-white fw-bold">Conheça a Meiricarro, <br> o seu reparador Citroën <br> e Eurorepar de Pombal.</h1>
                     </div>
@@ -208,8 +208,33 @@
             <div class="section" id="footer-section">
                 <div class="d-flex flex-column bd-highlight mb-3">
                     <div class="p-2 bd-highlight">
-                        <div class="message">
-                            <h1>Volte sempre.</h1>
+                        <div class="custom-section-prefooter">
+                            <div class="container">
+                                <div class="row w-100">
+                                    <div class="col-6">
+                                        <div>
+                                            <h1>E que tal fazer a sua marcação?</h1>
+                                            <p class="mt-3">Agora que já nos conhece faça aqui a sua marcação para a sua viatura de uma forma fácil, rápida e segura.</p>
+                                            <div class="button" style="margin-top:2rem;">
+                                                <a href="#contacts-section">
+                                                    <button type="text" name="button">marcação online</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6" style="position:relative;left:5rem;">
+                                        <div>
+                                            <h1>Ainda têm alguma dúvida?</h1>
+                                            <p class="mt-3">Se não consegui encontrar aquilo que precisava, não hesite em entrar em contacto connosco, estamos cá para o esclarecer.</p>
+                                            <div class="button" style="margin-top:2rem;">
+                                                <a href="#contacts-section">
+                                                    <button type="text" name="button">contacto-nos agora</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="p-2 bd-highlight">
@@ -319,7 +344,7 @@
         </div>
     </body>
     <script src="js/main.js"></script>
-    <script src="js/pagepiling.js"></script>
+    <script src="js/animations.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.js" integrity="sha512-FcXc9c211aHVJEHxoj2fNFeT8+wUESf/4mUDIR7c31ccLF3Y6m+n+Wsoq4dp2sCnEEDVmjhuXX6TfYNJO6AG6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </html>
