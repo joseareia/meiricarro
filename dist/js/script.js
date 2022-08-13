@@ -1,5 +1,14 @@
+$(window).on("load", function () {
+	"use strict";
+	$(".loader img").delay(500).fadeOut("slow");
+	$(".loader").delay(1000).fadeOut(1200, "swing");
+});
+
 (function($) {
 	"use strict";
+
+	// sal init
+	sal();
 
 	// tab
 	$(".tab-content")
