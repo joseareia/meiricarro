@@ -9390,6 +9390,25 @@ blockquote::before {
   padding: 15px;
 }
 
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #FBFBFB;
+  height: 100%;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+u {
+  -webkit-text-decoration-color: #e1412d;
+          text-decoration-color: #e1412d;
+  text-decoration-thickness: 4px;
+}
+
 .banner {
   padding: 90px 0;
   z-index: 5;

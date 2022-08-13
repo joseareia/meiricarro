@@ -1,3 +1,25 @@
+// loader
+
+.loader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: $tertiary_color;
+	height: 100%;
+	width: 100%;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+// underline banner
+
+u {
+	text-decoration-color: $primary-color;
+	text-decoration-thickness: 4px;
+}
+
 // banner style
 .banner {
   padding: 90px 0;
